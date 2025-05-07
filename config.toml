@@ -1,0 +1,20 @@
+[exchanges]
+# 交易所API配置
+[exchanges.binance]
+enable = true
+
+[exchanges.okx]
+enable = false
+
+[exchanges.bybit]
+enable = false
+
+[withdrawal]
+# 提现配置
+coin = "BNB"  # 提现币种
+network = "BEP20"  # 提现网络
+min_amount = 0.0  # 最小提现金额
+max_amount = 0.0  # 最大提现金额
+min_delay = 10  # 最小延迟时间(秒)
+max_delay = 30  # 最大延迟时间(秒)
+decimal_places = 1  # 金额小数位数 
