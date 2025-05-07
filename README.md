@@ -1,4 +1,4 @@
-# 交易所批量提现工具
+# 交易所自动批量提现工具
 
 这是一个用于从多个交易所批量提现加密货币的工具。
 
@@ -15,6 +15,7 @@
 ## 安装要求
 
 - Python 3.8+
+- Microsoft C++ 生成工具（https://visualstudio.microsoft.com/zh-hans/visual-cpp-build-tools/）
 - 安装依赖包：`pip install -r requirements.txt`
 
 ## 配置说明
